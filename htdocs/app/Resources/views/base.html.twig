@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ locale }}">
     <head>
-        <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="{{ 'head.meta.author'|trans }}">
+        <meta name="description" content="{{ 'head.meta.description'|trans }}">
+        <meta name="keywords" content="{{ 'head.meta.keywords'|trans }}">
+
+        <title>{% block title %}Fabrice Perez, Lead Tech !{% endblock %}</title>
+
         {% block stylesheets %}{% endblock %}
+
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
-    <body>
+
+    <body id="page-top">
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
