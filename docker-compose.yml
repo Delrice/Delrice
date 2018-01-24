@@ -1,0 +1,57 @@
+# Adopt version 2 syntax:
+#   https://docs.docker.com/compose/compose-file/#/versioning
+version: '2'
+
+volumes:
+    delrice-code-native-osx-sync:
+        external: true
+
+services:
+###########################
+# Setup the Apache container
+###########################
+    httpd:
+        container_name: httpd_sf34
+        restart: always
+        image: httpd:latest
+        ports:
+            - 80:80
+            - 8080:80
+        volumes:
+            - ./docker/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
+            - ./docker/apache/vhosts/:/usr/local/apache2/conf/vhosts
+        volumes_from:
+            - php
+        working_dir: /usr/local/apache2/htdocs
+
+###########################
+# Setup the PHP container
+###########################
+    php:
+        container_name: php_sf34
+        restart: always
+        build: ./docker/php/
+        expose:
+            - 9000
+        volumes:
+            - delrice-code-native-osx-sync:/usr/local/apache2/htdocs:nocopy
+        working_dir: /usr/local/apache2/htdocs
+        links:
+            - mysql:mysql
+
+###########################
+# Setup the Database (MySQL) container
+###########################
+    mysql:
+        container_name: mysql_sf34
+        restart: always
+        image: mysql:latest
+        ports:
+            - 3306:3306
+        environment:
+            MYSQL_ROOT_PASSWORD: fabrice
+            MYSQL_DATABASE: delrice
+            MYSQL_USER: fabrice
+            MYSQL_PASSWORD: fabrice
+        volumes:
+            - ./docker/mysql:/var/lib/mysql
