@@ -13,7 +13,6 @@ class DefaultController extends Controller
      */
     public function onePageAction(Request $request)
     {
-        // replace this example code with whatever you need
         return $this->render('default/one_page.html.twig');
     }
 }

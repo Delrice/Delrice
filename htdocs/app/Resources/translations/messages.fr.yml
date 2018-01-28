@@ -1,3 +1,63 @@
 head.meta.author: "Fabrice Perez"
 head.meta.description: "Vous accompagner sur votre projet"
-head.meta.keywords: "développeur, développeur web, PHP, Symfony2, Symfony3, eZPublish, consultant technique, consultant PHP, lead developer php, devops, lead tech, lead dev, alès, nimes, gard"
+head.meta.keywords: "développeur, développeur web, PHP, Symfony2, Symfony3, eZPublish, consultant technique, consultant PHP, lead developer php, devops, lead tech, lead dev, alès, nimes, gard, expert technique web"
+head.meta.title: 'Fabrice Perez || Expert Technique Web'
+
+nav.sitename: 'Fabrice Perez'
+
+nav.menu.1.title: 'Infos'
+nav.menu.1.identifier: 'infos'
+nav.menu.2.title: 'Services'
+nav.menu.2.identifier: 'services'
+nav.menu.3.title: 'Références'
+nav.menu.3.identifier: 'references'
+nav.menu.4.title: 'Contact'
+nav.menu.4.identifier: 'contact'
+
+box.header.title: 'Expert Technique Web'
+box.header.subtitle: '15 années d''expérience au profit de votre projet !'
+box.header.button.title: 'En savoir +'
+box.header.button.identifier: 'infos'
+
+box.infos.title: 'Vous conseiller et vous accompagner'
+box.infos.subtitle: 'Pur produit de la démocratisation d’Internet,  j’ai su tout au long de ma carrière suivre les évolutions technologiques ainsi que m’adapter aux attentes des clients.<br><br>
+Je me suis forgé en tant que développeur web de 2004 à 2009, et déjà à l’époque, j’attachais une grande importance à l’optimisation de mon code, au respect et à la mise en place des bonnes pratiques, ainsi que l’impact des choix technologiques sur les performances.<br><br>
+Après 5 années consacrées à mon perfectionnement technique, j’ai ressenti la nécessité de mener mes projets dans leur globalité, depuis la phase de recueil des besoins jusqu’à la mise en production.<br>
+Depuis ce jour, j’accompagne mes clients, dans le cadre de mon entreprise personnelle, dans le choix le plus adapté à leur projet.<br><br>
+Mon rôle de conseil implique que je propose la solution technologique la plus adéquate pour répondre au cahier des charges.<br>
+En effet, ma capacité d’adaptation ainsi que ma rigueur, me permettent de pouvoir travailler sur différents CMS et Frameworks.<br><br>
+C’est aujourd’hui, dans cette phase d’accompagnement et de conseils, que je souhaite mettre à profit toutes mes connaissances afin de vous orienter au mieux dans la concrétisation de vos idées.'
+box.infos.button.title: 'Me contacter'
+box.infos.button.identifier: 'contact'
+
+box.services.title: 'Services'
+box.services.1.title: 'étude'
+box.services.1.subtitle: 'Analyser vos besoins'
+box.services.2.title: 'conseil'
+box.services.2.subtitle: 'Orienter vos choix technologiques'
+box.services.3.title: 'accompagnement'
+box.services.3.subtitle: 'Encadrer et suivre la mise en place de votre projet'
+box.services.4.title: 'audit'
+box.services.4.subtitle: 'Améliorer et optimiser votre solution'
+
+box.references.1.category: 'McDonald''s Alès (Direct)'
+box.references.1.name: 'Intranet de gestion pour les 3 restaurants'
+box.references.2.category: 'Peugeot Scooters (MRM//McCANN)'
+box.references.2.name: 'Refonte des sites pays'
+box.references.3.category: 'UncleJeans (Direct)'
+box.references.3.name: ''
+box.references.4.category: 'SoJeans (Direct)'
+box.references.4.name: ''
+box.references.5.category: 'JeanStory (Direct)'
+box.references.5.name: ''
+box.references.6.category: 'ASAPParis (Direct)'
+box.references.6.name: ''
+
+box.contact.title: 'Pour me contacter'
+box.download.subtitle: 'Que vous soyez intéressé par mon profil, ou pour simplement me dire bonjour :) <br>je serai ravi d''échanger avec vous.'
+box.contact.email.title: 'contact@delrice.fr'
+box.contact.email.mailto: 'contact@delrice.fr'
+
+box.download.title: 'Vous souhaitez en savoir plus ?'
+box.download.button.title: 'Télécharger mon CV'
+box.download.button.link: '#'
