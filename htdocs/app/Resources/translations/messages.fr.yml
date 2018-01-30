@@ -73,7 +73,8 @@ box.references.6.name: 'Refonte technologique du site sous <br>Magento'
 
 box.contact.title: 'Pour me contacter'
 box.download.subtitle: 'Que vous soyez intéressé par mon profil, ou pour simplement me dire bonjour :) <br>je serai ravi d''échanger avec vous.'
-box.contact.email.title: 'contact@delrice.fr'
+box.contact.email.title: '<i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>'
+#box.contact.email.title: 'contact@delrice.fr'
 box.contact.email.mailto: 'contact@delrice.fr'
 
 box.download.title: 'Vous souhaitez en savoir plus ?'

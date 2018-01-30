@@ -9,6 +9,8 @@
         <meta name="description" content="{{ 'head.meta.description'|trans }}">
         <meta name="keywords" content="{{ 'head.meta.keywords'|trans }}">
 
+        <link rel="canonical" href="https://www.delrice.fr">
+
         <title>{% block title %}{{ 'head.meta.title'|trans }}{% endblock %}</title>
 
         {% block stylesheets %}{% endblock %}
@@ -32,12 +34,29 @@
                 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-MSCMBQC');</script>
         <!-- End Google Tag Manager -->
+
+        <!-- Twitter -->
+        <script>window.twttr = (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0],
+                    t = window.twttr || {};
+                if (d.getElementById(id)) return t;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+
+                t._e = [];
+                t.ready = function(f) {
+                    t._e.push(f);
+                };
+
+                return t;
+            }(document, "script", "twitter-wjs"));</script>
     </head>
 
     <body id="page-top">
         <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSCMBQC"
-                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSCMBQC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
 
         {% block body %}{% endblock %}
