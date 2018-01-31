@@ -46,6 +46,7 @@ box.services.3.subtitle: 'Encadrer et suivre la mise en place de votre projet'
 box.services.4.title: 'audit'
 box.services.4.subtitle: 'Améliorer et optimiser votre solution'
 
+box.partners.title: 'Ils m''ont fait confiance'
 
 box.references.1.url: 'https://www.peugeotscooters.fr/'
 box.references.1.alt: 'Refonte technologique des sites pays sous Pimcore'
