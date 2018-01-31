@@ -3,6 +3,12 @@ head.meta.description: "Etude, Conseil, Accompagnement, Audit. 15 années d''exp
 head.meta.keywords: "développeur, développeur web, PHP, Symfony2, Symfony3, eZPublish, consultant technique, consultant PHP, lead developer php, devops, lead tech, lead dev, alès, nimes, gard, expert technique web"
 head.meta.title: 'Fabrice Perez || Expert Technique Web'
 
+head.meta.og.title: 'Fabrice Perez || Expert Technique Web'
+head.meta.og.description: 'Etude, Conseil, Accompagnement, Audit. 15 années d''expérience au profit de votre projet !'
+head.meta.og.type: 'portfolio'
+head.meta.og.url: '//www.delrice.fr/'
+head.meta.og.image: '//www.delrice.fr/img/photo.jpg'
+
 nav.sitename: 'Fabrice Perez'
 
 nav.menu.1.title: 'Infos'

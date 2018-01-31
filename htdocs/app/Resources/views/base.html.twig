@@ -9,6 +9,12 @@
         <meta name="description" content="{{ 'head.meta.description'|trans }}">
         <meta name="keywords" content="{{ 'head.meta.keywords'|trans }}">
 
+        <meta property="og:title" content="{{ 'head.meta.og.title'|trans }}" />
+        <meta property="og:description" content="{{ 'head.meta.og.description'|trans }}" />
+        <meta property="og:type" content="{{ 'head.meta.og.type'|trans }}" />
+        <meta property="og:url" content="{{ 'head.meta.og.url'|trans }}" />
+        <meta property="og:image" content="{{ 'head.meta.og.image'|trans }}" />
+
         <link rel="canonical" href="https://www.delrice.fr">
 
         <title>{% block title %}{{ 'head.meta.title'|trans }}{% endblock %}</title>
