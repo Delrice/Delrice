@@ -22,18 +22,9 @@
         {% block stylesheets %}{% endblock %}
 
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113082477-1"></script>
     </head>
 
     <body id="page-top">
-        <!-- Google Tag Manager (noscript) -->
-        <noscript>
-            <iframe name="GoogleTagManager" sandbox="allow-scripts" src="https://www.googletagmanager.com/ns.html?id=GTM-MSCMBQC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-        </noscript>
-        <!-- End Google Tag Manager (noscript) -->
-
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
     </body>
