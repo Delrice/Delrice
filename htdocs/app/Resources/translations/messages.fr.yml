@@ -6,8 +6,8 @@ head.meta.title: 'Fabrice Perez || Expert Technique Web'
 head.meta.og.title: 'Fabrice Perez || Expert Technique Web'
 head.meta.og.description: 'Etude, Conseil, Accompagnement, Audit. 15 années d''expérience au profit de votre projet !'
 head.meta.og.type: 'portfolio'
-head.meta.og.url: '//www.delrice.fr/'
-head.meta.og.image: '//www.delrice.fr/img/photo.jpg'
+head.meta.og.url: 'https://www.delrice.fr/'
+head.meta.og.image: 'https://www.delrice.fr/img/www.delrice.fr.jpg'
 
 nav.sitename: 'Fabrice Perez'
 
