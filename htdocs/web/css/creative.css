@@ -321,16 +321,16 @@ header.masthead p {
 
 @media (min-width: 350px) {
     .photo {
-        width: 50px!important
+        width: 30px!important
     }
 }
 @media (min-width: 768px) {
     .photo {
-        width: 80px!important
+        width: 50px!important
     }
 }
 @media (min-width: 900px) {
     .photo {
-        width: 120px!important
+        width: 80px!important
     }
 }
